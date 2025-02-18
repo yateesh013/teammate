@@ -83,4 +83,4 @@ def browse():
     return render_template("browse.html",projects=projects)
 
 if __name__=="__main__":
-    app.run()
+    app.run(debug=True)
